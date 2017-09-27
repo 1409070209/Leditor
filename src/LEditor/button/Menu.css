@@ -1,0 +1,19 @@
+.LeiEditor-button{
+    border:none;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    margin-left: 1px;
+    margin-right: 1px;
+    background: #F1F1F1;
+    cursor: pointer;
+    padding: 0;
+}
+.LeiEditor-button:hover{
+    background: #70ff3a;
+    
+}
+.LeiEditor-button i {
+    font-size: 1.7rem;
+    color: #999;
+}

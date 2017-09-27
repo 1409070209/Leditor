@@ -2,6 +2,7 @@
 class ButtonEventConfig{
 
     leiEditor;
+    document;
     buttonEventList = [
         {
             text: 'getHtml',
@@ -42,13 +43,27 @@ class ButtonEventConfig{
             event: () => {
                 this.leiEditor.deleteFocusNode();
             }
+        },
+        {
+            text: 'bold',
+            event: () => {
+                this.document.execCommand('bold');
+            }
+        },
+        {
+            text: 'backColor',
+            event: () => {
+                this.document.execCommand('BackColor',false,'#333333');
+            }
         }
     ];
     constructor(editor) {
         this.leiEditor = editor;
+        this.document = this.leiEditor.getDocument();
     }
     getButtonList() {
         return this.buttonEventList;
+        // return []
     }
 }
 export default ButtonEventConfig;
