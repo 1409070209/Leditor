@@ -1,0 +1,13 @@
+#editor {
+    border: none;
+    width: 100%;
+}
+#buttonList {
+    background: #F1F1F1;
+    text-align: left;
+}
+.App {
+    border: 1px solid black;
+    width: 800px;
+    margin: 0 auto;
+}

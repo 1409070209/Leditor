@@ -6,6 +6,8 @@ import Html from "./Html/Html";
 import FocusNode from "./FocusNode/FocusNode";
 import Italic from "./Italic/Italic";
 import FontSize from "./FontSize/FontSize";
+import Undo from "../Undo/Undo";
+import Redo from "../Redo/Redo";
 /*
  * buttonList 的button列表要遵守唯一的接口规范
  * addInContainer(container:HtmlElement):bool 获取button的html element
@@ -30,6 +32,8 @@ class Menu {
         this.buttonList.push(new Html(this.leiEditor,this.document));
         this.buttonList.push(new FocusNode(this.leiEditor,this.document));
         this.buttonList.push(new FontSize(this.leiEditor,this.document));
+        this.buttonList.push(new Undo(this.leiEditor,this.document));
+        this.buttonList.push(new Redo(this.leiEditor,this.document));
 
     }
     getButtonList = () => this.buttonList

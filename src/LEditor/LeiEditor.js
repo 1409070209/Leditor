@@ -1,14 +1,13 @@
 
 import {createEditorException, deleteNodeException} from "./Exception/EditorException";
+import {htmlElementsToStr, isHtmlElement} from "./util/FunctionUtils";
+import {paramTypeException} from "./Exception/UtilException";
 
-class Editor {
+class LeiEditor {
     editorBody;
     editorWindow;
     editorDocument;
-    constructor(editor) {
-        if (editor.tagName !== 'IFRAME') {
-            throw createEditorException(editor.tagName)
-        }
+    create(editor){
         const editorTitle = document.createElement('title');
         editorTitle.innerHTML = 'LEditor 雷屌出品';
         this.editorDocument = editor.contentWindow.document;
@@ -17,16 +16,40 @@ class Editor {
         this.editorWindow = editor.contentWindow.window;
         this.editorHead.appendChild(editorTitle);
         this.editorBody.contentEditable = true;
+    }
+    constructor(editor) {
+        if (editor.tagName !== 'IFRAME') {
+            throw createEditorException(editor.tagName)
+        }
+        this.create(editor);
 
+        this.editorBody.onclick = () => {
+            console.log('input');
+            console.log(this.getSelection());
+        };
         //让编辑器获得焦点
         this.editorBody.focus();
     }
     getHtml() {
         return this.editorBody.innerHTML;
     }
-    addHtml(str){
-        console.log(this.editorBody.innerHTML);
-        this.editorBody.appendChild(str);
+    addHtml(param) {
+        let paramType = typeof param;
+        paramType = isHtmlElement(param) ? 'htmlElement' : paramType;
+        if (paramType !== 'string' && paramType !== 'htmlElement') {
+            throw paramTypeException(paramType , 'htmlElement or string');
+        }
+        const flag = isHtmlElement(param);
+        if (flag) {
+            this.editorBody.innerHTML += htmlElementsToStr(param);
+        } else {
+            this.editorBody.innerHTML += param
+        }
+        // this.editorBody.focus();
+    }
+    setHtml(htmlElement) {
+        this.editorBody.innerHTML = '';
+        this.addHtml(htmlElement);
     }
     getText() {
         return this.editorBody.innerText;
@@ -71,4 +94,4 @@ class Editor {
     }
 }
 
-export default Editor;
+export default LeiEditor;
