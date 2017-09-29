@@ -1,6 +1,7 @@
 #editor {
     border: none;
     width: 100%;
+    height: 100%;
 }
 #buttonList {
     background: #F1F1F1;
@@ -9,5 +10,6 @@
 .App {
     border: 1px solid black;
     width: 800px;
+    height: 800px;
     margin: 0 auto;
 }

@@ -23,10 +23,6 @@ class LeiEditor {
         }
         this.create(editor);
 
-        this.editorBody.onclick = () => {
-            console.log('input');
-            console.log(this.getSelection());
-        };
         //让编辑器获得焦点
         this.editorBody.focus();
     }
@@ -57,6 +53,9 @@ class LeiEditor {
     getDocument() {
         return this.editorDocument;
     }
+    getBody() {
+        return this.editorBody;
+    }
     getSelection() {
         if (this.editorDocument.getSelection) {
             return this.editorDocument.getSelection();
@@ -72,7 +71,6 @@ class LeiEditor {
         const select = this.getSelection();
         this.deleteSelectNode();
         const range = select.getRangeAt(0);
-        console.log(range);
         range.insertNode(node);
         const nextRange = range.cloneRange();
         nextRange.setStart(node,0);

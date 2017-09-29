@@ -5,9 +5,15 @@ class Html{
     leiDocument;
     html='<button class="LeiEditor-button"><i class="icon-font icon-HTML"></i></button>';
 
+    configEvent(){
+        this.leiEditor.getBody().onclick = () => {
+            console.log('Html的事件');
+        }
+    }
     constructor(leiEditor, leiDocument) {
         this.leiEditor = leiEditor;
         this.leiDocument = leiDocument;
+        this.configEvent();
     }
     event = () => {
         console.log(this.leiEditor.getHtml());
