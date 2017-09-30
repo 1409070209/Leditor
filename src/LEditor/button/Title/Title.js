@@ -1,4 +1,5 @@
 import {strToHtmlElements} from "../../util/FunctionUtils";
+import EventListenImpl from "../EventListenImpl";
 
 class Title{
     leiEditor;
@@ -7,13 +8,10 @@ class Title{
     html='<button class="LeiEditor-button"><i class="icon-font icon-H"></i></button>';
 
     configEventListen() {
-        return {
-            type: 'click',
-            event: () => {
-                console.log('Title的事件');
-                console.log(this.html);
-            }
-        }
+        return new EventListenImpl('click' , () => {
+            console.log('Title的监听事件');
+            console.log(this.html);
+        })
     }
     constructor(leiEditor, leiDocument) {
         this.leiEditor = leiEditor;
