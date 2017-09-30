@@ -6,16 +6,19 @@ class Title{
     flag = true;
     html='<button class="LeiEditor-button"><i class="icon-font icon-H"></i></button>';
 
-    configEvent(){
-        this.leiEditor.getBody().onclick = () => {
-            console.log('Title的事件');
-            console.log(this.leiEditor.getFocusNode());
+    configEventListen() {
+        return {
+            type: 'click',
+            event: () => {
+                console.log('Title的事件');
+                console.log(this.html);
+            }
         }
     }
     constructor(leiEditor, leiDocument) {
         this.leiEditor = leiEditor;
         this.leiDocument = leiDocument;
-        // this.configEvent();
+        // this.configEventListen();
     }
     event = () => {
         if (this.flag) {

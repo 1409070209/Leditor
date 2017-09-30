@@ -4,18 +4,18 @@ import {htmlElementsToStr, isHtmlElement} from "./util/FunctionUtils";
 import {paramTypeException} from "./Exception/UtilException";
 
 class LeiEditor {
-    editorBody;
-    editorWindow;
-    editorDocument;
+    _editorBody;
+    _editorWindow;
+    _editorDocument;
     create(editor){
         const editorTitle = document.createElement('title');
         editorTitle.innerHTML = 'LEditor 雷屌出品';
-        this.editorDocument = editor.contentWindow.document;
+        this._editorDocument = editor.contentWindow.document;
         this.editorHead = editor.contentWindow.document.head;
-        this.editorBody = editor.contentWindow.document.body;
-        this.editorWindow = editor.contentWindow.window;
+        this._editorBody = editor.contentWindow.document.body;
+        this._editorWindow = editor.contentWindow.window;
         this.editorHead.appendChild(editorTitle);
-        this.editorBody.contentEditable = true;
+        this._editorBody.contentEditable = true;
     }
     constructor(editor) {
         if (editor.tagName !== 'IFRAME') {
@@ -24,10 +24,10 @@ class LeiEditor {
         this.create(editor);
 
         //让编辑器获得焦点
-        this.editorBody.focus();
+        this._editorBody.focus();
     }
     getHtml() {
-        return this.editorBody.innerHTML;
+        return this._editorBody.innerHTML;
     }
     addHtml(param) {
         let paramType = typeof param;
@@ -37,30 +37,30 @@ class LeiEditor {
         }
         const flag = isHtmlElement(param);
         if (flag) {
-            this.editorBody.innerHTML += htmlElementsToStr(param);
+            this._editorBody.innerHTML += htmlElementsToStr(param);
         } else {
-            this.editorBody.innerHTML += param
+            this._editorBody.innerHTML += param
         }
-        // this.editorBody.focus();
+        // this._editorBody.focus();
     }
     setHtml(htmlElement) {
-        this.editorBody.innerHTML = '';
+        this._editorBody.innerHTML = '';
         this.addHtml(htmlElement);
     }
     getText() {
-        return this.editorBody.innerText;
+        return this._editorBody.innerText;
     }
     getDocument() {
-        return this.editorDocument;
+        return this._editorDocument;
     }
     getBody() {
-        return this.editorBody;
+        return this._editorBody;
     }
     getSelection() {
-        if (this.editorDocument.getSelection) {
-            return this.editorDocument.getSelection();
+        if (this._editorDocument.getSelection) {
+            return this._editorDocument.getSelection();
         } else {
-            return this.editorDocument.selection;
+            return this._editorDocument.selection;
         }
     }
     getFocusNode(){

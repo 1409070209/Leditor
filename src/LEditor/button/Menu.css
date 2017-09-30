@@ -1,3 +1,17 @@
+.LeiEditor-button p,.LeiEditor-button h1,.LeiEditor-button h2,.LeiEditor-button h3
+,.LeiEditor-button h4,.LeiEditor-button h5,.LeiEditor-button h6,.LeiEditor-button ul
+,.LeiEditor-button tr,.LeiEditor-button td,.LeiEditor-button li,.LeiEditor-button a
+,.LeiEditor-button image,.LeiEditor-button form,.LeiEditor-button button
+{
+    margin: 0;
+    padding: 0;
+}
+.LeiEditor-button a{
+    text-decoration: none;
+}
+.LeiEditor-button li {
+    list-style: none;
+}
 .LeiEditor-button{
     border:none;
     text-align: center;
@@ -11,7 +25,6 @@
 }
 .LeiEditor-button:hover{
     background: #70ff3a;
-    
 }
 .LeiEditor-button i {
     font-size: 1.7rem;

@@ -1,5 +1,5 @@
+
 import {strToHtmlElements} from "../../util/FunctionUtils";
-import "./Italic.css"
 
 class Italic{
     leiEditor;

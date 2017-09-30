@@ -1,3 +1,4 @@
+
 import {strToHtmlElements} from "../../util/FunctionUtils";
 
 class Html{
@@ -5,15 +6,19 @@ class Html{
     leiDocument;
     html='<button class="LeiEditor-button"><i class="icon-font icon-HTML"></i></button>';
 
-    configEvent(){
-        this.leiEditor.getBody().onclick = () => {
-            console.log('Html的事件');
+    configEventListen() {
+        return {
+            type: 'click',
+            event: () => {
+                console.log('Html的事件');
+                console.log(this.html);
+            }
         }
     }
     constructor(leiEditor, leiDocument) {
         this.leiEditor = leiEditor;
         this.leiDocument = leiDocument;
-        this.configEvent();
+        this.configEventListen();
     }
     event = () => {
         console.log(this.leiEditor.getHtml());

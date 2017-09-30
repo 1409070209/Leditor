@@ -5,11 +5,11 @@ import Bold from "./Bold/Bold";
 import Html from "./Html/Html";
 import FocusNode from "./FocusNode/FocusNode";
 import Italic from "./Italic/Italic";
-import FontSize from "./FontSize/FontSize";
+import FontSize from "./Title/Title";
 import Undo from "../Undo/Undo";
 import Redo from "../Redo/Redo";
 /*
- * buttonList 的button列表要遵守唯一的接口规范
+ * _buttonList 的button列表要遵守唯一的接口规范
  * addInContainer(container:HtmlElement):bool 获取button的html element
  * construct(editor:LeiEditor,leiDocument:HTML5.js):<T> 注入该按钮所绑定的editor:LeiEditor类
  */
@@ -17,25 +17,36 @@ import Redo from "../Redo/Redo";
 class Menu {
     leiEditor;
     document;
-    buttonList;
+    _buttonList;
+    _eventListenList;
 
     constructor(leiEditor, document) {
         this.leiEditor = leiEditor;
         this.document = document;
-        this.buttonList = [];
-
+        this._buttonList = [];
+        this._eventListenList = [];
         this.buttonListInit();
     }
-    buttonListInit(){
-        this.buttonList.push(new Bold(this.leiEditor,this.document));
-        this.buttonList.push(new Italic(this.leiEditor,this.document));
-        this.buttonList.push(new Html(this.leiEditor,this.document));
-        this.buttonList.push(new FocusNode(this.leiEditor,this.document));
-        this.buttonList.push(new FontSize(this.leiEditor,this.document));
-        this.buttonList.push(new Undo(this.leiEditor,this.document));
-        this.buttonList.push(new Redo(this.leiEditor,this.document));
-
+    _addButton(button) {
+        this._buttonList.push(button);
+        // console.log(button.configEventListen);
+        if (typeof button.configEventListen !== 'undefined') {
+            const eventImpl = button.configEventListen();
+            if (eventImpl !== null && typeof eventImpl === 'object') {
+                this._eventListenList.push(eventImpl);
+            }
+        }
     }
-    getButtonList = () => this.buttonList
+    buttonListInit(){
+        this._addButton(new Bold(this.leiEditor,this.document));
+        this._addButton(new Italic(this.leiEditor,this.document));
+        this._addButton(new Html(this.leiEditor,this.document));
+        this._addButton(new FocusNode(this.leiEditor,this.document));
+        this._addButton(new FontSize(this.leiEditor,this.document));
+        this._addButton(new Undo(this.leiEditor,this.document));
+        this._addButton(new Redo(this.leiEditor,this.document));
+    }
+    getButtonList = () => this._buttonList;
+    getEventListen = () => this._eventListenList;
 }
 export default Menu;
