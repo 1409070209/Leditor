@@ -23,10 +23,21 @@
     cursor: pointer;
     padding: 0;
 }
-.LeiEditor-button:hover{
-    background: #70ff3a;
+
+.LeiEditor-button-close{
+    cursor: auto;
 }
 .LeiEditor-button i {
     font-size: 1.7rem;
     color: #999;
+}
+.LeiEditor-button :hover{
+    color: #0000b0;
+}
+.LeiEditor-button-close i{
+     color: red;
+     font-size: 1.7rem;
+ }
+.LeiEditor-button-close :hover{
+    color: red;
 }

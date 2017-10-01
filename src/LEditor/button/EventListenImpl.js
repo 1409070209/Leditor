@@ -1,4 +1,5 @@
 class EventListenImpl {
+    //公有属性
     type;
     event;
 
