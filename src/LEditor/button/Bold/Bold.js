@@ -1,18 +1,18 @@
 
-import {domAttrUtil, strToHtmlElements} from "../../util/FunctionUtils";
+import {clearSpaceElement, domAttrUtil, strToHtmlElements} from "../../util/FunctionUtils";
 import EventListenImpl from "../EventListenImpl";
 const _tagNameList = ['STRONG' , 'H1' , 'H2' , 'H3' , 'H4' , 'H5' , 'H6' , 'B'];
 class Bold {
     leiEditor;
     leiDocument;
-    html = '<div class="LeiEditor-button-list"><button class="LeiEditor-button"><i class="icon-font icon-bold"></i></button></div>';
+    html = '<div class="LeiEditor-button-list">\n    <li><button class="LeiEditor-button"><i class="icon-font icon-bold"></i></button></li>\n</div>';
     buttonElement;
     _eventListen(){
-        if (_tagNameList.indexOf(this.leiEditor.getFocusNode().tagName) !== -1) {
+        const focusNode = this.leiEditor.getFocusNode();
+        if (_tagNameList.indexOf(focusNode.tagName) !== -1) {
             domAttrUtil.addClassName(this.buttonElement , 'LeiEditor-button-close');
         } else {
-            console.log('remove');
-            domAttrUtil.removeClassName(this.buttonElement,'LeiEditor-button-close');
+            domAttrUtil.removeClassName(this.buttonElement , 'LeiEditor-button-close');
         }
     }
     configEventListen(){
@@ -32,7 +32,7 @@ class Bold {
         this.leiDocument = document;
     }
     addInContainer(container){
-        const element = strToHtmlElements(this.html)[0];
+        const element = clearSpaceElement(strToHtmlElements(this.html));
         element.childNodes[0].onclick = this.event;
         this.buttonElement = element;
         container.appendChild(element);

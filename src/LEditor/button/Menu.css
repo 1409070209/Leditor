@@ -23,8 +23,8 @@
 .LeiEditor-button{
     border:none;
     text-align: center;
-    width: 40px;
     height: 40px;
+    width: 40px;
     margin-left: 1px;
     margin-right: 1px;
     background: #F1F1F1;
@@ -46,7 +46,6 @@
 .LeiEditor-button-close :hover{
     color: red;
 }
-
-.LeiEditor-second-nav{
+.LeiEditor-drop-none{
     visibility: hidden;
 }

@@ -1,11 +1,11 @@
 
-import {domAttrUtil, strToHtmlElements} from "../../util/FunctionUtils";
+import {clearSpaceElement, domAttrUtil, strToHtmlElements} from "../../util/FunctionUtils";
 import EventListenImpl from "../EventListenImpl";
 
 class Italic{
     leiEditor;
     leiDocument;
-    html='<div class="LeiEditor-button-list"><button class="LeiEditor-button"><i class="icon-font icon-italic"></i></button></div>';
+    html='<div class="LeiEditor-button-list">\n    <li><button class="LeiEditor-button"><i class="icon-font icon-italic"></i></button></li>\n</div>';
     buttonElement;
 
 
@@ -29,7 +29,7 @@ class Italic{
     };
 
     addInContainer(container){
-        const element = strToHtmlElements(this.html)[0];
+        const element = clearSpaceElement(strToHtmlElements(this.html));
         element.childNodes[0].onclick = this.event;
         this.buttonElement = element;
         container.appendChild(element);

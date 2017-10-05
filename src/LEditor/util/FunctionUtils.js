@@ -3,7 +3,9 @@ import {paramTypeException} from "../Exception/UtilException";
 const strToHtmlElements = (str) => {
     const div = document.createElement('div');
     div.innerHTML = str;
-
+    if (div.childNodes.length === 1) {
+        return div.childNodes[0];
+    }
     return div.childNodes;
 };
 const htmlElementsToStr = (element) => {
@@ -23,6 +25,32 @@ const isHtmlElement = (param) => {
     } else {
         return false;
     }
+};
+const isSpaceText = (element) => {
+    if (element.nodeType !== 3) return false;
+    for (let i = 0; i < element.nodeValue.length; i++) {
+        let item = element.nodeValue[i];
+        if (item !== '\n' && item !== ' ' && item !== '\t') {
+            return false;
+        }
+    }
+    return true;
+};
+const clearSpaceElement = (element) => {
+    const elementCopy = element.cloneNode(true);
+    const childNodes = elementCopy.childNodes;
+    if (childNodes === null) {
+        return childNodes;
+    }
+    for (let i = 0; i < childNodes.length; i++) {
+        let item = childNodes[i];
+        if (item.nodeType === 3 && isSpaceText(item)) {
+            item.parentNode.removeChild(item);
+        } else {
+            item = clearSpaceElement(item);
+        }
+    }
+    return elementCopy;
 };
 class DomAttrUtil {
     haveClassName(element , styleClass){
@@ -60,4 +88,4 @@ class DomAttrUtil {
     }
 }
 const domAttrUtil = new DomAttrUtil();
-export {strToHtmlElements , htmlElementsToStr ,isHtmlElement,domAttrUtil }
+export { strToHtmlElements , htmlElementsToStr ,isHtmlElement,domAttrUtil,clearSpaceElement,isSpaceText }

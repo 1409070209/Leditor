@@ -1,11 +1,11 @@
 
-import {strToHtmlElements} from "../../util/FunctionUtils";
+import {clearSpaceElement, strToHtmlElements} from "../../util/FunctionUtils";
 import EventListenImpl from "../EventListenImpl";
 
 class Html{
     leiEditor;
     leiDocument;
-    html='<div class="LeiEditor-button-list"><button class="LeiEditor-button"><i class="icon-font icon-HTML"></i></button></div>';
+    html='<div class="LeiEditor-button-list">\n    <li><button class="LeiEditor-button"><i class="icon-font icon-HTML"></i></button></li>\n</div>';
 
     configEventListen() {
         return new EventListenImpl('click' , () => {
@@ -22,7 +22,7 @@ class Html{
         console.log(this.leiEditor.getHtml());
     };
     addInContainer(container){
-        const element = strToHtmlElements(this.html)[0];
+        const element = clearSpaceElement(strToHtmlElements(this.html));
         element.childNodes[0].onclick = this.event;
         this.buttonElement = element;
         container.appendChild(element);

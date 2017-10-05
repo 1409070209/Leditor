@@ -68,6 +68,7 @@ class LeiEditor {
         return focusNode.parentNode;
     }
     insertNode(node) {
+        console.log(node);
         const select = this.getSelection();
         this.deleteSelectNode();
         const range = select.getRangeAt(0);

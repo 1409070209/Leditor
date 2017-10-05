@@ -1,10 +1,12 @@
-import {domAttrUtil, strToHtmlElements} from "../../util/FunctionUtils";
+import {clearSpaceElement, domAttrUtil, strToHtmlElements} from "../../util/FunctionUtils";
 import EventListenImpl from "../EventListenImpl";
+import './Title.css'
 
 class Title{
     leiEditor;
     leiDocument;
-    html='<div class="LeiEditor-button-list">\n    <li><button class="LeiEditor-button"><i class="icon-font icon-H"></i></button></li><li><button class="LeiEditor-button LeiEditor-second-nav"><i class="icon-font icon-H1"></i></button></li><li><button class="LeiEditor-button LeiEditor-second-nav"><i class="icon-font icon-H2"></i></button></li><li><button class="LeiEditor-button LeiEditor-second-nav"><i class="icon-font icon-H3"></i></button></li><li><button class="LeiEditor-button LeiEditor-second-nav"><i class="icon-font icon-H4"></i></button></li><li><button class="LeiEditor-button LeiEditor-second-nav"><i class="icon-font icon-H5"></i></button></li><li><button class="LeiEditor-button LeiEditor-second-nav"><i class="icon-font icon-H6"></i></button></li></div>';
+    html='<div class="LeiEditor-button-list">\n    <li class="LeiEditor-title-list"><button class="LeiEditor-button"><i class="icon-font icon-H"></i></button></li>\n    <li class="LeiEditor-title-drop-list LeiEditor-title-list"><button class="LeiEditor-button LeiEditor-drop-none"><i class="icon-font icon-H1"></i></button></li>\n    <li class="LeiEditor-title-drop-list LeiEditor-title-list"><button class="LeiEditor-button LeiEditor-drop-none"><i class="icon-font icon-H2"></i></button></li>\n    <li class="LeiEditor-title-drop-list LeiEditor-title-list"><button class="LeiEditor-button LeiEditor-drop-none"><i class="icon-font icon-H3"></i></button></li>\n    <li class="LeiEditor-title-drop-list LeiEditor-title-list"><button class="LeiEditor-button LeiEditor-drop-none"><i class="icon-font icon-H4"></i></button></li>\n    <li class="LeiEditor-title-drop-list LeiEditor-title-list"><button class="LeiEditor-button LeiEditor-drop-none"><i class="icon-font icon-H5"></i></button></li>\n    <li class="LeiEditor-title-drop-list LeiEditor-title-list"><button class="LeiEditor-button LeiEditor-drop-none"><i class="icon-font icon-H6"></i></button></li>\n</div>';
+    buttonElement;
 
     configEventListen() {
         return new EventListenImpl('click' , () => {
@@ -21,17 +23,24 @@ class Title{
         const element = this.buttonElement;
         for (let i = 1; i < element.childNodes.length; i++) {
             let item = element.childNodes[i];
-            if (domAttrUtil.haveClassName(item.getElementsByTagName('button')[0] , 'LeiEditor-second-nav')) {
-                domAttrUtil.removeClassName(item.getElementsByTagName('button')[0] , 'LeiEditor-second-nav')
+            if (domAttrUtil.haveClassName(item.getElementsByTagName('button')[0] , 'LeiEditor-drop-none')) {
+                domAttrUtil.removeClassName(item.getElementsByTagName('button')[0] , 'LeiEditor-drop-none')
             }else {
-                domAttrUtil.addClassName(item.getElementsByTagName('button')[0] , 'LeiEditor-second-nav')
+                domAttrUtil.addClassName(item.getElementsByTagName('button')[0] , 'LeiEditor-drop-none')
             }
         }
     };
+    _dropEven = (index = 1) => {
+        this.leiEditor.insertNode(strToHtmlElements(`<h${index}>这是一个标题</h${index}>`))
+    }
     addInContainer(container){
-        const element = strToHtmlElements(this.html)[0];
-        element.childNodes[0].onclick = this.event;
-        console.log(element.childNodes);
+        const element = clearSpaceElement(strToHtmlElements(this.html));
+        const buttonList = element.getElementsByTagName('button');
+        buttonList[0].onclick = this.event;
+        for (let i = 1; i < buttonList.length; i++) {
+            let item = buttonList[i];
+            item.onclick = this._dropEven.bind(this,i);
+        }
         this.buttonElement = element;
         container.appendChild(element);
         return true;

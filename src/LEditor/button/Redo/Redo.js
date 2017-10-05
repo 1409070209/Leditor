@@ -1,4 +1,4 @@
-import {strToHtmlElements} from "../../util/FunctionUtils";
+import {clearSpaceElement, strToHtmlElements} from "../../util/FunctionUtils";
 
 class Redo{
     leiEditor;
@@ -13,7 +13,7 @@ class Redo{
         this.leiDocument.execCommand('redo')
     };
     addInContainer(container){
-        const element = strToHtmlElements(this.html)[0];
+        const element = clearSpaceElement(strToHtmlElements(this.html));
         element.childNodes[0].onclick = this.event;
         this.buttonElement = element;
         container.appendChild(element);
