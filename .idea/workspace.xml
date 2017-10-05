@@ -17,11 +17,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="EventListenImpl.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LEditor/button/EventListenImpl.js">
+      <file leaf-file-name="Bold.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LEditor/button/Bold/Bold.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="2" column="8" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="8" />
+            <state relative-caret-position="361">
+              <caret line="38" column="20" lean-forward="false" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FocusNode.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LEditor/button/FocusNode/FocusNode.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="20" column="20" lean-forward="false" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -30,53 +40,21 @@
       <file leaf-file-name="Html.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LEditor/button/Html/Html.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="21" />
+            <state relative-caret-position="341">
+              <caret line="28" column="20" lean-forward="false" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Redo.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LEditor/button/Redo/Redo.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="397">
+              <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
               <folding>
-                <element signature="e#1#60#0" expanded="true" />
+                <marker date="1507181848731" expanded="true" signature="149:232" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Menu.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LEditor/button/Menu.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="627">
-              <caret line="43" column="22" lean-forward="false" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ButtonListRegister.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LEditor/ButtonListRegister.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="23" column="15" lean-forward="true" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Italic.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LEditor/button/Italic/Italic.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-              <folding>
-                <element signature="e#1#60#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Menu.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/LEditor/button/Menu.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="42" column="1" lean-forward="true" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -84,8 +62,58 @@
       <file leaf-file-name="Title.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LEditor/button/Title/Title.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+            <state relative-caret-position="72">
+              <caret line="6" column="55" lean-forward="true" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="font.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LEditor/button/font/font.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FunctionUtils.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/LEditor/util/FunctionUtils.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="11" column="100" lean-forward="false" selection-start-line="11" selection-start-column="100" selection-end-line="11" selection-end-column="100" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UtilException.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LEditor/Exception/UtilException.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="1" column="6" lean-forward="false" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Undo.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LEditor/button/Undo/Undo.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -100,6 +128,14 @@
         <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>LeiEditor-button</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -124,26 +160,36 @@
         <option value="$PROJECT_DIR$/src/LEditor/button/Italic/Italic.css" />
         <option value="$PROJECT_DIR$/src/LEditor/font/iconfont.css" />
         <option value="$PROJECT_DIR$/src/LEditor/button/Other.js" />
-        <option value="$PROJECT_DIR$/src/LEditor/util/FunctionUtils.js" />
-        <option value="$PROJECT_DIR$/src/LEditor/Exception/UtilException.js" />
         <option value="$PROJECT_DIR$/src/LEditor/Undo/Undo.js" />
         <option value="$PROJECT_DIR$/src/LEditor/Redo/Redo.js" />
         <option value="$PROJECT_DIR$/src/LEditor/button/font/font.css" />
         <option value="$PROJECT_DIR$/src/LEditor/EditorContext.js" />
-        <option value="$PROJECT_DIR$/src/App.js" />
-        <option value="$PROJECT_DIR$/src/App.css" />
         <option value="$PROJECT_DIR$/src/LEditor/button/FontSize/FontSize.js" />
-        <option value="$PROJECT_DIR$/src/LEditor/button/FocusNode/FocusNode.js" />
-        <option value="$PROJECT_DIR$/src/LEditor/button/Bold/Bold.js" />
         <option value="$PROJECT_DIR$/src/LEditor/button/button.md" />
         <option value="$PROJECT_DIR$/src/LEditor/ButtonListRegister.js" />
-        <option value="$PROJECT_DIR$/src/LEditor/LeiEditor.js" />
         <option value="$PROJECT_DIR$/src/LEditor/button/Menu.js" />
-        <option value="$PROJECT_DIR$/src/LEditor/button/Title/Title.js" />
-        <option value="$PROJECT_DIR$/src/LEditor/button/Html/Html.js" />
         <option value="$PROJECT_DIR$/src/LEditor/button/EventListenImpl.js" />
-        <option value="$PROJECT_DIR$/src/LEditor/button/Italic/Italic.js" />
+        <option value="$PROJECT_DIR$/src/LEditor/Exception/UtilException.js" />
+        <option value="$PROJECT_DIR$/src/LEditor/LeiEditor.js" />
+        <option value="/HTML Fragment (Title.js:182).html" />
+        <option value="/HTML Fragment (Html.js:165).html" />
+        <option value="/HTML Fragment (Bold.js:261).html" />
+        <option value="/HTML Fragment (Italic.js:180).html" />
         <option value="$PROJECT_DIR$/src/LEditor/button/Menu.css" />
+        <option value="/HTML Fragment (Redo.js:123).html" />
+        <option value="/HTML Fragment (Undo.js:114).html" />
+        <option value="/HTML Fragment (FocusNode.js:120).html" />
+        <option value="$PROJECT_DIR$/src/App.css" />
+        <option value="$PROJECT_DIR$/src/LEditor/button/Italic/Italic.js" />
+        <option value="$PROJECT_DIR$/src/LEditor/button/Bold/Bold.js" />
+        <option value="$PROJECT_DIR$/src/LEditor/button/FocusNode/FocusNode.js" />
+        <option value="$PROJECT_DIR$/src/LEditor/button/Html/Html.js" />
+        <option value="$PROJECT_DIR$/src/LEditor/button/Redo/Redo.js" />
+        <option value="$PROJECT_DIR$/src/LEditor/button/Undo/Undo.js" />
+        <option value="/HTML Fragment (Title.js:178).html" />
+        <option value="$PROJECT_DIR$/src/LEditor/button/Title/Title.js" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/LEditor/util/FunctionUtils.js" />
       </list>
     </option>
   </component>
@@ -208,8 +254,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -222,69 +266,34 @@
               <item name="l-editor" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="l-editor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="l-editor" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="LEditor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="l-editor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="l-editor" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="LEditor" type="462c0819:PsiDirectoryNode" />
-              <item name="button" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="l-editor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="l-editor" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="LEditor" type="462c0819:PsiDirectoryNode" />
-              <item name="button" type="462c0819:PsiDirectoryNode" />
-              <item name="Html" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="l-editor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="l-editor" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="LEditor" type="462c0819:PsiDirectoryNode" />
-              <item name="button" type="462c0819:PsiDirectoryNode" />
-              <item name="Italic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="l-editor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="l-editor" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="LEditor" type="462c0819:PsiDirectoryNode" />
-              <item name="button" type="462c0819:PsiDirectoryNode" />
-              <item name="Title" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path" value="D:/004notspace/007node_git/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
     <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/react-scripts" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/package.json" />
     <property name="javascript.nodejs.core.library.configured.version" value="6.10.3" />
-    <property name="SearchEverywhereHistoryKey" value="me&#9;FILE&#9;file://D:/002MyFiles/005WebInfo/l-editor/src/LEditor/button/Menu.css&#10;menu&#9;FILE&#9;file://D:/002MyFiles/005WebInfo/l-editor/src/LEditor/button/Menu.js&#10;H&#9;FILE&#9;file://D:/002MyFiles/005WebInfo/l-editor/src/LEditor/button/Html/Html.js&#10;Title&#9;FILE&#9;file://D:/002MyFiles/005WebInfo/l-editor/src/LEditor/button/Title/Title.js&#10;Lei&#9;FILE&#9;file://D:/002MyFiles/005WebInfo/l-editor/src/LEditor/LeiEditor.js&#10;F&#9;FILE&#9;file://D:/002MyFiles/005WebInfo/l-editor/src/LEditor/button/FontSize/FontSize.js&#10;inser&#9;null&#9;null&#10;A&#9;FILE&#9;file://D:/002MyFiles/005WebInfo/l-editor/src/App.js&#10;font&#9;FILE&#9;file://D:/002MyFiles/005WebInfo/l-editor/src/LEditor/font/iconfont.css&#10;exce&#9;FILE&#9;file://D:/002MyFiles/005WebInfo/l-editor/src/LEditor/Exception/UtilException.js&#10;util&#9;FILE&#9;file://D:/002MyFiles/005WebInfo/l-editor/src/LEditor/util/FunctionUtils.js&#10;Menu&#9;FILE&#9;file://D:/002MyFiles/005WebInfo/l-editor/src/LEditor/button/Menu.js&#10;pa&#9;FILE&#9;file://D:/002MyFiles/005WebInfo/l-editor/package.json" />
+    <property name="SearchEverywhereHistoryKey" value="strto&#9;null&#9;null&#10;domA&#9;null&#9;null&#10;Fo&#9;FILE&#9;file://D:/002MyFiles/005WebInfo/l-editor/src/LEditor/button/font/font.css&#10;App&#9;FILE&#9;file://D:/002MyFiles/005WebInfo/l-editor/src/App.css&#10;Me&#9;FILE&#9;file://D:/002MyFiles/005WebInfo/l-editor/src/LEditor/button/Menu.css&#10;Bol&#9;FILE&#9;file://D:/002MyFiles/005WebInfo/l-editor/src/LEditor/button/Bold/Bold.js&#10;Blo&#9;null&#9;null&#10;Html&#9;FILE&#9;file://D:/002MyFiles/005WebInfo/l-editor/src/LEditor/button/Html/Html.js&#10;Title&#9;FILE&#9;file://D:/002MyFiles/005WebInfo/l-editor/src/LEditor/button/Title/Title.js&#10;Ita&#9;FILE&#9;file://D:/002MyFiles/005WebInfo/l-editor/src/LEditor/button/Italic/Italic.js&#10;Exc&#9;FILE&#9;file://D:/002MyFiles/005WebInfo/l-editor/src/LEditor/Exception/UtilException.js&#10;util&#9;FILE&#9;file://D:/002MyFiles/005WebInfo/l-editor/src/LEditor/util/FunctionUtils.js&#10;app&#9;FILE&#9;file://D:/002MyFiles/005WebInfo/l-editor/src/App.js&#10;I&#9;FILE&#9;file://D:/002MyFiles/005WebInfo/l-editor/src/LEditor/button/Italic/Italic.js&#10;Htm&#9;FILE&#9;file://D:/002MyFiles/005WebInfo/l-editor/src/LEditor/button/Html/Html.js&#10;me&#9;FILE&#9;file://D:/002MyFiles/005WebInfo/l-editor/src/LEditor/button/Menu.css&#10;menu&#9;FILE&#9;file://D:/002MyFiles/005WebInfo/l-editor/src/LEditor/button/Menu.js&#10;H&#9;FILE&#9;file://D:/002MyFiles/005WebInfo/l-editor/src/LEditor/button/Html/Html.js&#10;Lei&#9;FILE&#9;file://D:/002MyFiles/005WebInfo/l-editor/src/LEditor/LeiEditor.js&#10;F&#9;FILE&#9;file://D:/002MyFiles/005WebInfo/l-editor/src/LEditor/button/FontSize/FontSize.js&#10;inser&#9;null&#9;null&#10;A&#9;FILE&#9;file://D:/002MyFiles/005WebInfo/l-editor/src/App.js&#10;font&#9;FILE&#9;file://D:/002MyFiles/005WebInfo/l-editor/src/LEditor/font/iconfont.css&#10;exce&#9;FILE&#9;file://D:/002MyFiles/005WebInfo/l-editor/src/LEditor/Exception/UtilException.js&#10;Menu&#9;FILE&#9;file://D:/002MyFiles/005WebInfo/l-editor/src/LEditor/button/Menu.js&#10;pa&#9;FILE&#9;file://D:/002MyFiles/005WebInfo/l-editor/package.json" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\002MyFiles\005WebInfo\l-editor\src\LEditor\font" />
-      <recent name="D:\002MyFiles\005WebInfo\l-editor\src\LEditor\button" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\002MyFiles\005WebInfo\l-editor\src\LEditor\button" />
       <recent name="D:\002MyFiles\005WebInfo\l-editor\src\LEditor\button\Bold" />
       <recent name="D:\002MyFiles\005WebInfo\l-editor\src\LEditor" />
       <recent name="D:\002MyFiles\005WebInfo\l-editor\src\component\Header" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\002MyFiles\005WebInfo\l-editor\src\LEditor\font" />
+      <recent name="D:\002MyFiles\005WebInfo\l-editor\src\LEditor\button" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -300,6 +309,7 @@
     </option>
   </component>
   <component name="RunManager" selected="npm.start">
+    <configuration name="Italic.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="Italic.js" working-dir="$PROJECT_DIR$/src/LEditor/button/Italic" />
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -328,13 +338,15 @@
       <node-interpreter value="project" />
       <envs />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="npm.start" />
       <item index="1" class="java.lang.String" itemvalue="Jest.renders without crashing" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.Italic.js" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Jest.renders without crashing" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Node.js.Italic.js" />
+        <item index="1" class="java.lang.String" itemvalue="Jest.renders without crashing" />
       </list>
     </recent_temporary>
   </component>
@@ -362,12 +374,13 @@
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17734724" sideWeight="0.49191687" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17734724" sideWeight="0.49191687" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32868218" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33953488" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32868218" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17734724" sideWeight="0.50808316" order="3" side_tool="true" content_ui="tabs" />
@@ -377,7 +390,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32868218" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -388,8 +400,8 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33953488" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32868218" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17734724" sideWeight="0.49191687" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -416,39 +428,11 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LEditor/ButtonListRegister.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="52" lean-forward="false" selection-start-line="0" selection-start-column="52" selection-end-line="0" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LEditor/LeiEditor.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1008">
-          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/LEditor/ButtonEventConfig.js" />
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -463,9 +447,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -480,9 +461,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -497,9 +475,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -551,7 +526,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -563,20 +537,6 @@
     <entry file="file://$PROJECT_DIR$/src/LEditor/font/demo_fontclass.html" />
     <entry file="file://$PROJECT_DIR$/src/LEditor/button/Italic/Italic.css" />
     <entry file="file://$PROJECT_DIR$/src/LEditor/button/Other.js" />
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DOMCore.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="518" column="2" lean-forward="true" selection-start-line="518" selection-start-column="2" selection-end-line="518" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LEditor/Exception/UtilException.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="1" column="43" lean-forward="false" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/LEditor/Exception/EditorException.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -584,105 +544,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LEditor/util/FunctionUtils.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="63" lean-forward="false" selection-start-line="9" selection-start-column="63" selection-end-line="9" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/LEditor/font/iconfont.css" />
-    <entry file="file://$PROJECT_DIR$/src/LEditor/Undo/Undo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-144">
-          <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-          <folding>
-            <marker date="1506611804932" expanded="true" signature="153:219" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LEditor/Redo/Redo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="7" column="37" lean-forward="false" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
-          <folding>
-            <marker date="1506611920373" expanded="true" signature="153:219" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/LEditor/EditorContext.js" />
-    <entry file="file://$PROJECT_DIR$/src/App.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="10" column="96" lean-forward="false" selection-start-line="10" selection-start-column="96" selection-end-line="10" selection-end-column="96" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/LEditor/ButtonEventConfig.js" />
-    <entry file="file://$PROJECT_DIR$/src/LEditor/button/font/font.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LEditor/LeiEditor.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="9" lean-forward="false" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LEditor/button/FocusNode/FocusNode.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="16" column="34" lean-forward="false" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LEditor/button/Bold/Bold.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/LEditor/button/button.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="509">
           <caret line="15" column="48" lean-forward="false" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LEditor/button/EventListenImpl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="2" column="8" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LEditor/button/Menu.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="43" column="22" lean-forward="false" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -694,38 +562,159 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LEditor/button/Html/Html.js">
+    <entry file="file://$PROJECT_DIR$/src/LEditor/button/EventListenImpl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="21" />
-          <folding>
-            <element signature="e#1#60#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="51">
+          <caret line="2" column="8" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LEditor/button/Title/Title.js">
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/HTML5.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        <state relative-caret-position="205">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DOMEvents.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1069">
+          <caret line="214" column="9" lean-forward="false" selection-start-line="214" selection-start-column="9" selection-end-line="214" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DOMCore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="595" column="13" lean-forward="true" selection-start-line="595" selection-start-column="13" selection-end-line="595" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LEditor/LeiEditor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2141">
+          <caret line="90" column="35" lean-forward="true" selection-start-line="90" selection-start-column="35" selection-end-line="90" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LEditor/button/Menu.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="20" column="16" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LEditor/button/Italic/Italic.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        <state relative-caret-position="123">
+          <caret line="31" column="8" lean-forward="true" selection-start-line="31" selection-start-column="8" selection-end-line="35" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LEditor/button/Menu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="40" column="25" lean-forward="false" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LEditor/button/Bold/Bold.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="38" column="20" lean-forward="false" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LEditor/button/FocusNode/FocusNode.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="20" column="20" lean-forward="false" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LEditor/button/Html/Html.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="28" column="20" lean-forward="false" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LEditor/button/Redo/Redo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
           <folding>
-            <element signature="e#1#60#0" expanded="true" />
+            <marker date="1507181848731" expanded="true" signature="149:232" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LEditor/button/Menu.css">
+    <entry file="file://$PROJECT_DIR$/src/LEditor/button/Undo/Undo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="42" column="1" lean-forward="true" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
+        <state relative-caret-position="289">
+          <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LEditor/Exception/UtilException.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="1" column="6" lean-forward="false" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LEditor/button/font/font.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LEditor/button/Title/Title.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="6" column="55" lean-forward="true" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="11" column="100" lean-forward="false" selection-start-line="11" selection-start-column="100" selection-end-line="11" selection-end-column="100" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LEditor/util/FunctionUtils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
           <folding />
         </state>
       </provider>

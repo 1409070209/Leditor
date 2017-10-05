@@ -7,7 +7,7 @@ class LeiEditor {
     _editorBody;
     _editorWindow;
     _editorDocument;
-    create(editor){
+    create(editor) {
         const editorTitle = document.createElement('title');
         editorTitle.innerHTML = 'LEditor 雷屌出品';
         this._editorDocument = editor.contentWindow.document;

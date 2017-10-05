@@ -1,11 +1,11 @@
 
-import {strToHtmlElements} from "../../util/FunctionUtils";
+import {domAttrUtil, strToHtmlElements} from "../../util/FunctionUtils";
 import EventListenImpl from "../EventListenImpl";
 
 class Italic{
     leiEditor;
     leiDocument;
-    html='<button class="LeiEditor-button"><i class="icon-font icon-italic"></i></button>';
+    html='<div class="LeiEditor-button-list"><button class="LeiEditor-button"><i class="icon-font icon-italic"></i></button></div>';
     buttonElement;
 
 
@@ -13,10 +13,9 @@ class Italic{
         return new EventListenImpl('click' , () => {
             const focusNode = this.leiEditor.getFocusNode();
             if (focusNode.tagName === 'I') {
-                console.log(this.buttonElement.outerHTML);
-                // const fontElement = this.buttonElement.getElementsByTagName('i');
-                // fontElement[0].className += ' LeiEditor-i-close';
-                this.buttonElement.className += ' LeiEditor-button-close';
+                domAttrUtil.addClassName(this.buttonElement , 'LeiEditor-button-close');
+            } else {
+                domAttrUtil.removeClassName(this.buttonElement , 'LeiEditor-button-close');
             }
         })
     }
@@ -30,10 +29,10 @@ class Italic{
     };
 
     addInContainer(container){
-        const element = strToHtmlElements(this.html);
-        element[0].onclick = this.event;
-        this.buttonElement = element[0];
-        container.appendChild(element[0]);
+        const element = strToHtmlElements(this.html)[0];
+        element.childNodes[0].onclick = this.event;
+        this.buttonElement = element;
+        container.appendChild(element);
         return true;
     }
 }

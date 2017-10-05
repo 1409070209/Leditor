@@ -1,25 +1,16 @@
-
 import {strToHtmlElements} from "../../util/FunctionUtils";
-import EventListenImpl from "../EventListenImpl";
 
-class Html{
+class Undo{
     leiEditor;
     leiDocument;
-    html='<div class="LeiEditor-button-list"><button class="LeiEditor-button"><i class="icon-font icon-HTML"></i></button></div>';
+    html='<div class="LeiEditor-button-list"><button class="LeiEditor-button"><i class="icon-font icon-undo"></i></button></div>';
 
-    configEventListen() {
-        return new EventListenImpl('click' , () => {
-            // console.log('Html的监听事件');
-            // console.log(this.html);
-        })
-    }
     constructor(leiEditor, leiDocument) {
         this.leiEditor = leiEditor;
         this.leiDocument = leiDocument;
-        this.configEventListen();
     }
     event = () => {
-        console.log(this.leiEditor.getHtml());
+        this.leiDocument.execCommand('undo')
     };
     addInContainer(container){
         const element = strToHtmlElements(this.html)[0];
@@ -29,4 +20,4 @@ class Html{
         return true;
     }
 }
-export default Html;
+export default Undo;

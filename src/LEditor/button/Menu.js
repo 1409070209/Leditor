@@ -6,8 +6,8 @@ import Html from "./Html/Html";
 import FocusNode from "./FocusNode/FocusNode";
 import Italic from "./Italic/Italic";
 import FontSize from "./Title/Title";
-import Undo from "../Undo/Undo";
-import Redo from "../Redo/Redo";
+import Undo from "./Undo/Undo";
+import Redo from "./Redo/Redo";
 /*
  * _buttonList 的button列表要遵守唯一的接口规范
  * addInContainer(container:HtmlElement):bool 获取button的html element

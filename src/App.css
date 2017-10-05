@@ -7,6 +7,16 @@
     background: #F1F1F1;
     text-align: left;
 }
+.clear:after{
+    clear: both;
+    height:0px;
+    display: block;
+    visibility: hidden;
+    content: '.';
+}
+.clear{
+    zoom: 1;
+}
 .App {
     border: 1px solid black;
     width: 800px;
