@@ -4,18 +4,29 @@ import {htmlElementsToStr, isHtmlElement} from "./util/FunctionUtils";
 import {paramTypeException} from "./Exception/UtilException";
 
 class LeiEditor {
+    _editor;
     _editorBody;
     _editorWindow;
     _editorDocument;
+    _historyContent = [];
+
     create(editor) {
         const editorTitle = document.createElement('title');
         editorTitle.innerHTML = 'LEditor 雷屌出品';
+        this._editor = editor;
         this._editorDocument = editor.contentWindow.document;
         this.editorHead = editor.contentWindow.document.head;
         this._editorBody = editor.contentWindow.document.body;
         this._editorWindow = editor.contentWindow.window;
         this.editorHead.appendChild(editorTitle);
         this._editorBody.contentEditable = true;
+    }
+    saveHistory(){
+        if (this._historyContent.length >= 10) {
+            this._historyContent.shift();
+        }
+        this._historyContent.push(this.getHtml());
+        // console.log(this._historyContent[this._historyContent.length-1]);
     }
     constructor(editor) {
         if (editor.tagName !== 'IFRAME') {
@@ -25,6 +36,16 @@ class LeiEditor {
 
         //让编辑器获得焦点
         this._editorBody.focus();
+        const inputEvent = (e) => {
+            console.log(e);
+            alert(e)
+        };
+        if(!+[1,]){
+            // 如果是ie
+            this._editor.contentWindow.onpropertychange = inputEvent;
+        }else {
+            this._editorBody.addEventListener('input',inputEvent,false)
+        }
     }
     getHtml() {
         return this._editorBody.innerHTML;
@@ -68,7 +89,6 @@ class LeiEditor {
         return focusNode.parentNode;
     }
     insertNode(node) {
-        console.log(node);
         const select = this.getSelection();
         this.deleteSelectNode();
         const range = select.getRangeAt(0);

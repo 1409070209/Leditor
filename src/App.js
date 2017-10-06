@@ -13,6 +13,9 @@ class App extends Component {
         editor.addHtml('<img src="https://pic3.zhimg.com/462e6b7b95adbff825829b442a34b992_im.jpg">');
 
     }
+    change(e){
+        console.log(e.target);
+    }
     render() {
         return (
             <div className="LeiEditor">

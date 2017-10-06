@@ -47,5 +47,6 @@
     color: red;
 }
 .LeiEditor-drop-none{
-    visibility: hidden;
+    display: none;
+    z-index: -100;
 }
