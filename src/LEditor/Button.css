@@ -1,0 +1,29 @@
+.float-left{
+    float: left;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    vertical-align: bottom;
+}
+.lei-button button {
+    border: none;
+    background: white;
+    color: red;
+}
+.lei-button .lei-active{
+    color: blue;
+}
+.lei-button .icon-font{
+    height: 40px;
+    width: 40px;
+    font-size: 1.7rem;
+}

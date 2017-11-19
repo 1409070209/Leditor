@@ -1,115 +1,47 @@
 
-import {createEditorException, deleteNodeException} from "./Exception/EditorException";
-import {htmlElementsToStr, isHtmlElement} from "./util/FunctionUtils";
-import {paramTypeException} from "./Exception/UtilException";
 
 class LeiEditor {
     _editor;
-    _editorBody;
-    _editorWindow;
-    _editorDocument;
-    _historyContent = [];
 
     create(editor) {
         const editorTitle = document.createElement('title');
         editorTitle.innerHTML = 'LEditor 雷屌出品';
         this._editor = editor;
-        this._editorDocument = editor.contentWindow.document;
-        this.editorHead = editor.contentWindow.document.head;
-        this._editorBody = editor.contentWindow.document.body;
-        this._editorWindow = editor.contentWindow.window;
-        this.editorHead.appendChild(editorTitle);
-        this._editorBody.contentEditable = true;
-    }
-    saveHistory(){
-        if (this._historyContent.length >= 10) {
-            this._historyContent.shift();
-        }
-        this._historyContent.push(this.getHtml());
-        // console.log(this._historyContent[this._historyContent.length-1]);
+        const editorHead = this.getHead();
+        const editorBody = this.getBody();
+        editorHead.appendChild(editorTitle);
+        editorBody.contentEditable = true;
     }
     constructor(editor) {
-        if (editor.tagName !== 'IFRAME') {
-            throw createEditorException(editor.tagName)
-        }
         this.create(editor);
+        //让编辑器获取焦点
+        this.getBody().focus();
+        this.getBody().innerHTML = '<p><br></p>';
+        this.configEventListener('keyup',(e)=>{
+            if (e.keyCode === 13) {
+                this.execCommand('insertHTML' , '<p><br></p>');
+            }
+        })
 
-        //让编辑器获得焦点
-        this._editorBody.focus();
-        const inputEvent = (e) => {
-            console.log(e);
-            alert(e)
-        };
-        if(!+[1,]){
-            // 如果是ie
-            this._editor.contentWindow.onpropertychange = inputEvent;
-        }else {
-            this._editorBody.addEventListener('input',inputEvent,false)
-        }
     }
-    getHtml() {
-        return this._editorBody.innerHTML;
+    getBody () {
+        return this._editor.contentWindow.document.body;
     }
-    addHtml(param) {
-        let paramType = typeof param;
-        paramType = isHtmlElement(param) ? 'htmlElement' : paramType;
-        if (paramType !== 'string' && paramType !== 'htmlElement') {
-            throw paramTypeException(paramType , 'htmlElement or string');
-        }
-        const flag = isHtmlElement(param);
-        if (flag) {
-            this._editorBody.innerHTML += htmlElementsToStr(param);
-        } else {
-            this._editorBody.innerHTML += param
-        }
-        // this._editorBody.focus();
+    getHead(){
+        return this._editor.contentWindow.document.head;
     }
-    setHtml(htmlElement) {
-        this._editorBody.innerHTML = '';
-        this.addHtml(htmlElement);
+    getDocument(){
+        return this._editor.contentWindow.document;
     }
-    getText() {
-        return this._editorBody.innerText;
+    getSelect(){
+        return this._editor.contentWindow.document.getSelection();
     }
-    getDocument() {
-        return this._editorDocument;
+    configEventListener(type , event , flag = false) {
+        this.getBody().addEventListener(type , event , flag);
     }
-    getBody() {
-        return this._editorBody;
-    }
-    getSelection() {
-        if (this._editorDocument.getSelection) {
-            return this._editorDocument.getSelection();
-        } else {
-            return this._editorDocument.selection;
-        }
-    }
-    getFocusNode(){
-        const focusNode = this.getSelection().focusNode;
-        return focusNode.parentNode;
-    }
-    insertNode(node) {
-        const select = this.getSelection();
-        this.deleteSelectNode();
-        const range = select.getRangeAt(0);
-        range.insertNode(node);
-        const nextRange = range.cloneRange();
-        nextRange.setStart(node,0);
-        nextRange.setEnd(node,0);
-        select.removeAllRanges();
-        select.addRange(nextRange);
-        return true;
-    }
-    deleteFocusNode() {
-        const focusNode = this.getFocusNode();
-        if (focusNode.tagName === 'BODY' || focusNode.tagName === 'HTML') {
-            throw deleteNodeException(focusNode.tagName);
-        } else {
-            focusNode.parentNode.removeChild(focusNode);
-        }
-    }
-    deleteSelectNode() {
-        this.getSelection().deleteFromDocument();
+
+    execCommand(type , param = null){
+        this.getDocument().execCommand(type ,false ,param);
     }
 }
 
