@@ -17,10 +17,10 @@ img{
 .lei-button button {
     border: none;
     background: white;
-    color: red;
+    color: #5a5a5a;
 }
 .lei-button .lei-active{
-    color: blue;
+    color: #5c00ff;
 }
 .lei-button .icon-font{
     height: 40px;

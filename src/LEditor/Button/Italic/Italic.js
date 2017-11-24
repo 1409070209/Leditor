@@ -1,33 +1,30 @@
-
 import {addClassName, removeClassName, strToElement} from "../../Util/domUtil";
 
-class Bold {
-    _editor;
-
-    _template = '<button><i class="icon-font icon-bold"></i></button>';
+class Italic {
     _button;
+    _editor;
+    _template = '<button><i class="icon-font icon-italic"></i></button>';
+
     constructor(editor) {
         this._editor = editor;
     }
     eventListen() {
         this._editor.configEventListener('click' , (e)=>{
-            if (e.target.tagName === 'B' || e.target.tagName === 'STRONG') {
+            if (e.target.tagName === 'I') {
                 addClassName(this._button , 'lei-active');
             } else {
                 removeClassName(this._button , 'lei-active');
             }
-        });
+        })
     }
     render(element) {
-        const button = strToElement(this._template)[0];
-        this._button = button;
+        this._button = strToElement(this._template)[0];
         this._button.onclick = (e)=>{
-            e.preventDefault();
-            this._editor.execCommand('bold');
+            this._editor.execCommand('italic');
         };
-        element.appendChild(button);
+        element.appendChild(this._button);
         this.eventListen();
     }
 }
 
-export default Bold;
+export default Italic;

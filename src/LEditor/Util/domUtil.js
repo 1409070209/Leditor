@@ -1,7 +1,7 @@
 function strToElement(str) {
     const div = document.createElement('div');
     div.innerHTML = str;
-    return div.childNodes;
+    return div.children;
 }
 function haveClassName(element , styleClass){
     styleClass.trim();

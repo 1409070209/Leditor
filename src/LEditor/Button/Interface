@@ -1,0 +1,17 @@
+    _button;
+    _editor;
+    _template = '<button><i class="icon-font icon-bold"></i></button>';
+
+    constructor(editor) {
+        this._editor = editor;
+    }
+    eventListen() {
+
+    }
+    render(element) {
+        this._button = strToElement(this._template)[0];
+        this._button.onclick = (e)=>{
+            console.log(this._editor.getBody().innerHTML);
+        };
+        element.appendChild(this._button);
+    }

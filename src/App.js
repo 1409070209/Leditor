@@ -9,6 +9,8 @@ class App extends Component {
         let editor = new LeiEditor(document.getElementById('editor'));
 
         addButton(editor , document.getElementById('buttonList'));
+        // editor.getBody().innerHTML = '<p>21313</p>';
+        editor.execCommand('insertHTML' , '<p>Hello World</p>')
     }
     render() {
         return (
