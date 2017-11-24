@@ -14,6 +14,7 @@ class Insert {
                 type: 'insertHTML',
                 event: this.insertHtml.bind(this)
             }
+
         ]
     }
     insertHtml(param){
