@@ -1,4 +1,3 @@
-import {strToElement} from "../../Util/domUtil";
 
 class Insert {
     _editor;

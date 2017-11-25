@@ -4,7 +4,7 @@ class OutHistory {
 
     _button;
     _editor;
-    _template = '<button><i class="icon-font icon-insert_tag_field"></i></button>';
+    _template = '<button><i class="icon-font icon-code"></i></button>';
 
     constructor(editor) {
         this._editor = editor;

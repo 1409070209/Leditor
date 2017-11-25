@@ -27,7 +27,7 @@ class Command {
     }
     execBefore(type , param) {
         //执行Before监听函数
-        this._commandBefore.map(item =>{
+        this._commandBefore.forEach(item =>{
             item(type , param);
         })
     }
@@ -43,7 +43,7 @@ class Command {
         if (this.queryCommandSupported(type)) {
             return this.exec(type , param)
         }
-        this._commandList.map((item)=>{
+        this._commandList.forEach((item)=>{
             if (item.type === type) {
                 return item.event(param);
             }

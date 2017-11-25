@@ -2,24 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a122314c-5721-4f86-a68d-7182c8ca78fb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/LEditor/Button/Html/Html.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/LEditor/Button/Image/Image.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/LEditor/Button/Interface" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/LEditor/Button/Italic/Italic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/LEditor/Button/OutHistort/OutHistory.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/LEditor/Button/Redo/Redo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/LEditor/Button/Undo/Undo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/LEditor/Command/Command.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/LEditor/Command/History/History.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/LEditor/Command/Insert/Insert.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/LEditor/Command/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.js" afterPath="$PROJECT_DIR$/src/App.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/LEditor/Button.css" afterPath="$PROJECT_DIR$/src/LEditor/Button.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/LEditor/Button/Bold/Bold.js" afterPath="$PROJECT_DIR$/src/LEditor/Button/Bold/Bold.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/LEditor/Button/ButtonList.js" afterPath="$PROJECT_DIR$/src/LEditor/Button/ButtonList.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/LEditor/LeiEditor.js" afterPath="$PROJECT_DIR$/src/LEditor/LeiEditor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/LEditor/Util/domUtil.js" afterPath="$PROJECT_DIR$/src/LEditor/Util/domUtil.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/LEditor/Button/OutHistort/OutHistory.js" afterPath="$PROJECT_DIR$/src/LEditor/Button/OutHistort/OutHistory.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/LEditor/Command/Command.js" afterPath="$PROJECT_DIR$/src/LEditor/Command/Command.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/LEditor/Command/Insert/Insert.js" afterPath="$PROJECT_DIR$/src/LEditor/Command/Insert/Insert.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/LEditor/Font/font.css" afterPath="$PROJECT_DIR$/src/LEditor/Font/font.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -41,7 +28,7 @@
       <file leaf-file-name="LeiEditor.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LEditor/LeiEditor.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
+            <state relative-caret-position="1599">
               <caret line="41" column="94" lean-forward="false" selection-start-line="41" selection-start-column="94" selection-end-line="41" selection-end-column="94" />
               <folding />
             </state>
@@ -61,7 +48,7 @@
       <file leaf-file-name="Italic.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LEditor/Button/Italic/Italic.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
+            <state relative-caret-position="351">
               <caret line="9" column="5" lean-forward="false" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
               <folding />
             </state>
@@ -71,28 +58,50 @@
       <file leaf-file-name="Image.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LEditor/Button/Image/Image.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="507">
+            <state relative-caret-position="624">
               <caret line="16" column="98" lean-forward="false" selection-start-line="16" selection-start-column="98" selection-end-line="16" selection-end-column="98" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Insert.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Insert.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LEditor/Command/Insert/Insert.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Command.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="font.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LEditor/Font/font.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+              <folding>
+                <element signature="e#265#8158#1" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OutHistory.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LEditor/Button/OutHistort/OutHistory.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Command.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/LEditor/Command/Command.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="37" column="34" lean-forward="false" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
+            <state relative-caret-position="379">
+              <caret line="45" column="34" lean-forward="false" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="e#39#79#0" expanded="true" />
@@ -155,7 +164,6 @@
         <option value="/HTML Fragment (Title.js:218).html" />
         <option value="$PROJECT_DIR$/src/LEditor/Button/Blob.js" />
         <option value="$PROJECT_DIR$/src/LEditor/util/FunctionUtils.js" />
-        <option value="$PROJECT_DIR$/src/LEditor/Font/font.css" />
         <option value="$PROJECT_DIR$/src/LEditor/addButton.js" />
         <option value="$PROJECT_DIR$/src/App.css" />
         <option value="$PROJECT_DIR$/src/LEditor/Button/Blob/Blob.js" />
@@ -166,17 +174,18 @@
         <option value="$PROJECT_DIR$/src/LEditor/Button/Undo/Undo.js" />
         <option value="$PROJECT_DIR$/src/LEditor/Button/redo.js" />
         <option value="$PROJECT_DIR$/src/LEditor/Button/Redo/Redo.js" />
-        <option value="$PROJECT_DIR$/src/LEditor/Button/OutHistort/OutHistory.js" />
         <option value="$PROJECT_DIR$/src/LEditor/Button/Bold/Bold.js" />
         <option value="$PROJECT_DIR$/src/LEditor/Command/History/History.js" />
         <option value="$PROJECT_DIR$/src/LEditor/Button/ButtonList.js" />
         <option value="$PROJECT_DIR$/src/LEditor/Button/Italic/Italic.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
-        <option value="$PROJECT_DIR$/src/LEditor/Command/Command.js" />
         <option value="$PROJECT_DIR$/src/LEditor/Button/Image/Image.js" />
         <option value="$PROJECT_DIR$/src/LEditor/LeiEditor.js" />
         <option value="$PROJECT_DIR$/src/LEditor/Util/domUtil.js" />
+        <option value="$PROJECT_DIR$/src/LEditor/Button/OutHistort/OutHistory.js" />
+        <option value="$PROJECT_DIR$/src/LEditor/Font/font.css" />
         <option value="$PROJECT_DIR$/src/LEditor/Command/Insert/Insert.js" />
+        <option value="$PROJECT_DIR$/src/LEditor/Command/Command.js" />
       </list>
     </option>
   </component>
@@ -244,8 +253,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -276,12 +283,29 @@
               <item name="LeiEditor" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="LEditor" type="462c0819:PsiDirectoryNode" />
+              <item name="Button" type="462c0819:PsiDirectoryNode" />
+              <item name="OutHistort" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeiEditor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeiEditor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="LEditor" type="462c0819:PsiDirectoryNode" />
+              <item name="Font" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeiEditor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeiEditor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="LEditor" type="462c0819:PsiDirectoryNode" />
               <item name="Util" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -377,7 +401,8 @@
       <workItem from="1511257131932" duration="7838000" />
       <workItem from="1511323868692" duration="9036000" />
       <workItem from="1511417734497" duration="5626000" />
-      <workItem from="1511523399512" duration="9240000" />
+      <workItem from="1511523399512" duration="9566000" />
+      <workItem from="1511581256570" duration="1856000" />
     </task>
     <servers />
   </component>
@@ -390,7 +415,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38671000" />
+    <option name="totallyTimeSpent" value="40853000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -405,16 +430,16 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17818575" sideWeight="0.49191687" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18142548" sideWeight="0.49191687" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33912036" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33912036" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3275463" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17734724" sideWeight="0.50808316" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -549,7 +574,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="39">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -621,7 +645,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
           <caret line="7" column="16" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -629,22 +652,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="554">
           <caret line="25" column="34" lean-forward="false" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LEditor/Font/font.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2730">
-          <caret line="70" column="0" lean-forward="true" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LEditor/Button/OutHistort/OutHistory.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="18" column="10" lean-forward="false" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
           <folding />
         </state>
       </provider>
@@ -657,20 +664,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LEditor/Command/Command.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="37" column="34" lean-forward="false" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#39#79#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/LEditor/Button/Image/Image.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
+        <state relative-caret-position="624">
           <caret line="16" column="98" lean-forward="false" selection-start-line="16" selection-start-column="98" selection-end-line="16" selection-end-column="98" />
           <folding />
         </state>
@@ -678,7 +674,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LEditor/Button/Italic/Italic.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
+        <state relative-caret-position="351">
           <caret line="9" column="5" lean-forward="false" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
           <folding />
         </state>
@@ -686,7 +682,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LEditor/LeiEditor.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
+        <state relative-caret-position="1599">
           <caret line="41" column="94" lean-forward="false" selection-start-line="41" selection-start-column="94" selection-end-line="41" selection-end-column="94" />
           <folding />
         </state>
@@ -700,11 +696,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LEditor/Command/Insert/Insert.js">
+    <entry file="file://$PROJECT_DIR$/src/LEditor/Button/OutHistort/OutHistory.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LEditor/Font/font.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <folding>
+            <element signature="e#265#8158#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LEditor/Command/Insert/Insert.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LEditor/Command/Command.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="45" column="34" lean-forward="false" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#39#79#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
