@@ -3,6 +3,7 @@ function strToElement(str) {
     div.innerHTML = str;
     return div.children;
 }
+
 function haveClassName(element , styleClass){
     styleClass.trim();
     const classNameList = element.className;

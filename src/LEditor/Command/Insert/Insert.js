@@ -17,7 +17,9 @@ class Insert {
         ]
     }
     insertHtml(param){
+        this._editor.getBody().focus();
         const range = this._editor.getRange();
+        console.log(range);
         range.deleteContents();
         if (range.insertNode) {
             //如果在这个位置使用document创建div，IE会因为document的不同出现插入异常。
