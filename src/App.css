@@ -5,21 +5,25 @@
     z-index: -1;
     border-top: 1px solid green;
 }
-.LeiEditor{
+
+.LeiEditor {
     width: 800px;
     margin: 0 auto;
     border: 1px solid black;
 }
-.clear:after{
+
+.clear:after {
     clear: both;
-    height:0;
+    height: 0;
     display: block;
     visibility: hidden;
     content: '.';
 }
-.clear{
+
+.clear {
     zoom: 1;
 }
+
 .App {
     border: 1px solid black;
     width: 800px;
