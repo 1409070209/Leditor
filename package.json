@@ -1,7 +1,7 @@
 {
   "name": "l-editor",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "fetch-polyfill": "^0.8.2",
     "react": "^15.6.1",
